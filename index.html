@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>El blog de Daf</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="hero"> </div>
+    <section class="header-main">
+      <section class="wrapper-header">
+        <section class="header-content">
+          <header>
+            <nav>
+              <h4 class=title-header>CONTENIDO</h4>
+              <details open>
+                <summary>
+                  Setup
+                </summary>
+                <ol>
+                  <li><a href="#google">Quien Soy</a></li>
+                </ol>
+              </details>
+              <details>
+                <summary>
+                  Conceptos esenciales de DeFi
+                </summary>
+                <ol>
+                  <li><a href="#html">Bitcoin</a></li>
+                  <li><a href="#etiquetas">Blockchain</a></li>
+                  <li><a href="#dom">Halving</a></li>
+
+                </ol>
+              </details>
+
+            </nav>
+          </header>
+        </section>
+      </section>
+    </section>
+
+
+    <section class="main-wrapper">
+      <section class="wrapper">
+        <section class="content-wrapper">
+
+          <h1>Biblioteca Crypto & DeFi</h1>
+
+          <hr>
+
+          <h2>Conceptos esenciales de DeFi</h2>
+          <div class="section-content">
+            <h3 id=html>. BITCOIN</h3>
+            <p>¿Qué es bitcoin? A Pablo le gusta le gusta esta definición:</p>
+
+            <blockquote>
+              <p>"Es una herramienta para dar libertad al ser humano disfrazada de esquema para hacerse rico rápido".
+              </p>
+            </blockquote>
+            <p>Muchos se acercan por la idea de riqueza, no esta pensado para eso. Esta pensado como un sistema en el
+              cual el eje de poder deja de ser el estado y pasa a ser el individuo.</p>
+            <p>Bitcoin es una innovación. ¿Qué es una innovación?. Hay una frase de Dean Kamen que dice…”De vez en
+              cuando, una nueva tecnología,
+              un viejo
+              problema y una gran idea se convierten en una innovación”.<br>
+              Queda mejor: Un viejo problema con viejas tecnologías mediante una gran idea se convierte en innovación.
+              Con viejas
+              tecnologías se
+              refiere a Criptografía Asimétrica (1976) , blockchain (1992) , Proof of work (1993) y Bittorrent (2001).
+            </p>
+            <p>Características:</p>
+            <ul>
+              <li>Descentralizado: sin autoridad central</li>
+              <li>Transparente y trazable</li>
+              <li>Pseudo anónimo: las wallets no tienen nombre, tienen un ID.</li>
+              <li>Emisión limitada y prepactada hasta el año 2140.</li>
+              <li>Lento (10 minutos para verificar una transacción).</li>
+            </ul>
+            <p>Problema que viene resolver: Poder realizar transacciones de forma segura sin intermediarios, es P2P.</p>
+            <h4>Ciclo de vida de las transacciones de bitcoin</h4>
+            <img
+              src="https://www.researchgate.net/profile/Prashant-Ankalkoti/publication/318850089/figure/fig2/AS:522759499415552@1501646985857/LIFE-CYCLE-OF-BITCOIN-TRANSACTION.png"
+              alt="">
+            <h3 id=etiquetas>. BLOCKCHAIN</h3>
+            <p>Blockchain: cambio de paradigma</p>
+            <p>Blockchain es una base de datos, es un registro público de transacciones, descentralizado, resistente a
+              la
+              censura,
+              resistente a las confiscación, resistente a la alteración: inmutable. Rquiere de un
+              algoritmo de consenso: Proof of work (PoW).
+
+              Viene del concepto de cadenas de bloques, es decir cada bloque de informacion esta encadenado con el
+              siguiente y el anterior.
+              Si modifico uno, debo modificar el siguiente y asi sucesivamente. Resuelve el problema del double-spend
+              (Ej: No poder gastar un bitcoin dos veces).
+
+              <br>
+            </p>
+            <p>¿Cuáles son los elementos claves para que una blockchain crezca?</p>
+            <ul>
+              <li>
+                Red peer-to-peer
+              </li>
+              <li>Resguardo criptográfico</li>
+              <li>Algoritmo de consenso: PoW, PoS</li>
+              <li>Sistema de castigos y recompensas (teoría de juegos)</li>
+              <li>Adopción del mercado</li>
+              <li>Developers > Aplicaciones > usuarios</li>
+            </ul>
+            <h3 id=dom>. HALVING</h3>
+            <img
+              src="https://global-uploads.webflow.com/5eb1c51b903700f456ce7a7e/60198cc60caa242149a8c11f_Halving%20en%20Bitcoin.png"
+              alt="">
+            <p>Los halvings son un evento dentro de la política monetaria de Bitcoin que recorta a la mitad la emisión
+              de monedas cada
+              210.000 mil bloques (esto ocurre aproximadamente cada 4 años).
+              <p />
+            <p>Cada vez que se resuelve un bloque se le da una recompensa al minero. Cuando arrancó bitcoin el 3 de
+              enero de 2009, en
+              el bloque cero, la recompensa para el minero era de 50 bitcoins, en este periodo se minó el 50% de los
+              bitcoins. A
+              partir de 2012, la recompensa bajo a 25. En 2016 bajo a 12.5. Ma o menos cada 4 años la recompensa que se
+              da de bitcoin
+              en cada bloque baja a la mitad.
+            </p>
+            <h4> Pregunta: ¿Cuántas transacciones puede contener un bloque?</h4>
+            <p>Más o menos unas 4200 a 5000, va cambiando porque bitcoin va evolucionando para que cada vez ocupe
+              menos lugar.</p>
+            <h4>¿Cuál es el incentivo del nodo?
+            </h4>
+            <p>El nodo no tiene un incentivo económico directo, así como el minero gana bitcoin por validar la red, el
+              nodo no gana
+              dinero por validar la red. Uno puede tener nodos por varias razones.</p>
+            <ol>
+              <li>Por amor a la descentralización</li>
+              <li>Si tienes tu nodo, tenes un nivel de seguridad superior sobre un nivel de seguridad que ya es gigante.
+                No es
+                estrictamente necesario
+                porque cuando tu billetera le está preguntando a un nodo cuanto es el saldo de una billetera se lo estas
+                preguntando a
+                tu propio nodo entonces sabes que tendras más seguridad. Simplemente eso.</li>
+            </ol>
+            <section class="img-content">
+              <h3 id=semantica>. Wallets y billeteras</h3>
+              <h4>Seguridad en un wallet</h4>
+              <ul>
+                <li>
+                  Seed phrase (frase semilla): 12 palabras. Se usa para construir una o varias llaves privadas.
+                </li>
+                <li>Private Key (llave privada): string de 64 caracteres. Derivada de la seed phrase. Se usa para firmar
+                  una transacción.</li>
+                <li>Public Key (llave pública): permite verificar que una transacción fue firmada por una private key.
+                </li>
+                <li>Address: la dirección de tu billetera, es generada por la public key.</li>
+                <li>Keystore file: contiene la llave privada, encriptada por el password del wallet.</li>
+                <li>Password: contraseña que protege el acceso local al wallet.</li>
+              </ul>
+              <h4>Tipos</h4>
+              <ol>
+                <li>Self-Custodial: Tenemos la custodia de nuestra llave privada</li>
+                <ul>
+                  <li>HOT WALLETS: MetaMask, Trust Wallet, Exodus</li>
+                  <li>SMART CONTRACT WALLETS: Argent</li>
+                  <li>WARM WALLETS: Muun. Varias personas tienen el poder de firmar. Si de 7 personas firman 4, la
+                    transacción se
+                    realiza.</li>
+                  <li>COLD WALLETS: Paper wallet / Hardware wallets (Ledger-Trezor)</li>
+                </ul>
+                <li>Custodial "NON-WALLETS": Cedemos la llave privada a un tercero</li>
+                <ul>
+                  <li>Kraker</li>
+                  <li>Belo</li>
+                  <li>Bitfinex</li>
+                  <li>Binance</li>
+                  <li>Buenbit</li>
+                  <li>Bittrex</li>
+                </ul>
+              </ol>
+
+  </main>
+  
+  <footer class="footer">
+    <p>© Dafne Villarroel</p>
+   
+  </footer>
+</body>
+
+</html>
